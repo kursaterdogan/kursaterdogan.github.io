@@ -1,0 +1,58 @@
+/* =============================================================================
+MIXINS
+============================================================================= */
+// Contact Icon Mixin
+@mixin icon-styles($network) {
+  .icon {
+    @extend %icon;
+    color: $network;
+  }
+
+  .content {
+    h1 {
+      color: $network;
+    }
+  }
+}
+
+// Drop Shadow Mixin
+@mixin drop-shadow($r,$g,$b,$a) {
+  -webkit-box-shadow: 1px 1px 4px 4px rgba($r,$g,$b,$a);
+  box-shadow: 1px 1px 4px 4px rgba($r,$g,$b,$a);
+}
+
+@mixin animation($animation) {
+  -webkit-animation: #{$animation};
+     -moz-animation: #{$animation};
+       -o-animation: #{$animation};
+          animation: #{$animation};
+}
+
+@mixin keyframes($keyframes) {
+  @-webkit-keyframes #{$keyframes} { @content; }
+     @-moz-keyframes #{$keyframes} { @content; }
+       @-o-keyframes #{$keyframes} { @content; }
+          @keyframes #{$keyframes} { @content; }
+}
+
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+     -moz-transform: $transform;
+      -ms-transform: $transform;
+       -o-transform: $transform;
+          transform: $transform;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: #{$transition};
+     -moz-transition: #{$transition};
+       -o-transition: #{$transition};
+          transition: #{$transition};
+}
+
+@mixin transition-delay($transition-delay) {
+  -webkit-transition-delay: #{$transition-delay};
+     -moz-transition-delay: #{$transition-delay};
+       -o-transition-delay: #{$transition-delay};
+          transition-delay: #{$transition-delay};
+}

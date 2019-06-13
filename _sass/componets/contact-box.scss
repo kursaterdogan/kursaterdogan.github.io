@@ -1,0 +1,371 @@
+/* =============================================================================
+CONTACT BOX
+============================================================================= */
+
+.contact-area {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.contact {
+  position: relative;
+  max-width: 500px;
+  padding: 40px 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 1;
+
+  @media (min-width: 1024px) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%, -50%));
+  }
+
+  main {
+    float: left;
+    width: 100%;
+    position: relative;
+
+    section {
+      border-radius: 5px;
+      float: left;
+      width: 100%;
+      background-color: $color-1;
+
+      .content {
+        float: left;
+        width: 100%;
+        padding: 20px 30px 50px 30px;
+        position: relative;
+        text-align: center;
+
+        @media (min-width: 414px) {
+          text-align: left;
+        }
+
+        img {
+          display: inline-block;
+          width: 140px;
+          border-radius: 50%;
+
+          @media (min-width: 414px) {
+            float: left;
+            width: 30%;
+            margin-right: 10%;
+          }
+        }
+
+        aside {
+          float: left;
+          width: 100%;
+          color: $white;
+          margin-top: 10px;
+
+          @media (min-width: 414px) {
+            width: 60%;
+          }
+
+          h1 {
+            font-family: 'Permanent Marker', cursive;
+            font-weight: 100;
+            font-size: 22px;
+            margin-bottom: 10px;
+          }
+
+          p {
+            font-size: 14px;
+            letter-spacing: .5px;
+            line-height: 160%;
+          }
+        }
+      }
+    }
+
+    .title {
+      float: left;
+      width: 100%;
+      background-color: $color-2;
+      max-height: 0px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      overflow: hidden;
+      @include transition(all .55s);
+
+      &.active {
+        max-height: 100px;
+        @include transition(all 1.3s);
+
+        p {
+          @include transform(scale(1));
+          transition-delay: .2s;
+        }
+      }
+
+      p {
+        padding: 15px 30px;
+        color: $white;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+        @include transition(all .3s);
+        @include transform(scale(0));
+      }
+    }
+
+    button {
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+      background-color: $color-3;
+      color: $color-2;
+      border: 0;
+      width: 200px;
+      height: 48px;
+      text-align: center;
+      border-radius: 30px;
+      font-size: 16px;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      margin-bottom: -24px;
+      margin-right: -100px;
+      @include transition(all .4s);
+      transition-delay: .1s;
+      outline: none;
+      overflow: hidden;
+      z-index: 10;
+      font-family: inherit;
+      font-weight: 200;
+      @include drop-shadow(95,111,155,0.46);
+
+      span {
+        opacity: 1;
+        @include transition(opacity .2s);
+        transition-delay: .4s;
+        display: block;
+        width: 200px;
+        float: left;
+        padding: 15px 0px;
+      }
+
+      svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+        opacity: 0;
+        @include transition(all .4s);
+
+        path {
+          fill: $color-2;
+        }
+      }
+
+      &.active {
+        margin-right: 0;
+        right: 20px;
+        width: 65px;
+        height: 65px;
+        margin-bottom: -32.5px;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        border-radius: 65px;
+        @include drop-shadow(95,111,155,0.46);
+
+        span {
+          opacity: 0;
+          transition-delay: 0s;
+          width: 200px;
+        }
+
+        svg {
+          opacity: 1;
+          transition-delay: .5s;
+        }
+      }
+    }
+  }
+
+  nav {
+    float: left;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 0px;
+    @include transition(all .5s);
+    overflow: auto;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+    filter: drop-shadow(0 0 0.30rem #bd93f9);
+
+
+    &::-webkit-scrollbar { width: 0 !important }
+
+    &.active {
+      max-height: 600px;
+      @include transition(all 1s);
+
+      a {
+        opacity: 1;
+        @include transform(translateY(0px));
+        @include transition(all .7s);
+        // Control for Contact Boxes
+        @for $i from 1 through 24 {
+          &:nth-of-type(#{$i}) {
+            // Delay the animation. Delay increases as items loop.
+            transition-delay: $i * (.20s);
+          }
+        }
+      }
+    }
+
+    .scroll {
+      text-align: center;
+      margin-top: .5rem;
+      margin-bottom: -.5rem;
+      filter: drop-shadow(0 0 0.10rem #282a36);
+      color: #f8f8f2;
+      opacity: 0.65;
+    }
+
+    a {
+      float: left;
+      width: 100%;
+      margin-top: 18px;
+      background-color: $white;
+      padding: 18px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      @include transition(all .3s);
+      opacity: 0;
+      @include transform(translateY(-10px));
+      position: relative;
+
+      @media (min-width: 414px) {
+        padding: 18px 30px;
+      }
+
+      .arrow {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        @include transform(translateY(-50%));
+
+        path {
+          fill: darken($white, 10%);
+        }
+      }
+
+      &.headmaster {
+        @include icon-styles($headmaster)
+      }
+
+      &.work {
+        @include icon-styles($work)
+      }
+
+      &.email {
+        @include icon-styles($email)
+      }
+
+      &.s-email {
+        @include icon-styles($s-email)
+      }
+
+      &.google {
+        @include icon-styles($google)
+      }
+
+      &.keybase {
+        @include icon-styles($keybase)
+      }
+
+      &.github {
+        @include icon-styles($github)
+      }
+
+      &.gitlab {
+        @include icon-styles($gitlab)
+      }
+
+      &.rubygems {
+        @include icon-styles($rubygems)
+      }
+
+      &.bitbucket {
+        @include icon-styles($bitbucket)
+      }
+
+      &.medium {
+        @include icon-styles($medium)
+      }
+
+      &.dribbble {
+        @include icon-styles($dribbble)
+      }
+
+      &.behance {
+        @include icon-styles($behance)
+      }
+
+      &.telegram {
+        @include icon-styles($telegram)
+      }
+
+      &.linkedin {
+        @include icon-styles($linkedin)
+      }
+
+      &.angellist {
+        @include icon-styles($angellist)
+      }
+
+      &.facebook {
+        @include icon-styles($facebook)
+      }
+
+      &.twitter {
+        @include icon-styles($twitter)
+      }
+
+      .icon {
+        float: left;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 20px;
+
+        svg {
+          width: 100%;
+          height: 100%;
+          padding: 14px;
+
+          path {
+            fill: $white;
+          }
+        }
+      }
+
+      .content {
+        h1 {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 160%;
+          letter-spacing: .4px;
+        }
+
+        span {
+          font-size: 14px;
+          color: $black;
+          display: block;
+          letter-spacing: .4px;
+        }
+      }
+    }
+  }
+}

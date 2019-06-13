@@ -1,0 +1,55 @@
+/* =============================================================================
+Background
+============================================================================= */
+.hide {
+  display: none;
+}
+
+#matrix {
+  background-color: rgb(62, 62, 86);
+	animation: blur 6s infinite;
+	animation-delay: 120s;
+  position: fixed;
+}
+
+@include keyframes(blur) {
+  0% {
+            filter: url("#blur-horizontal");
+  }
+  2% {
+            filter: url("#none");
+  }
+  5% {
+            filter: url("#blur-horizontal");
+  }
+  7% {
+            filter: url("#none");
+  }
+  10% {
+            filter: url("#blur-horizontal");
+  }
+  12% {
+            filter: url("#none");
+  }
+  58% {
+            filter: url("#none");
+  }
+  60% {
+            filter: url("#blur-vertical");
+  }
+  62% {
+            filter: url("#none");
+  }
+  65% {
+            filter: url("#blur-horizontal");
+  }
+  67% {
+            filter: url("#none");
+  }
+  69% {
+            filter: url("#blur-vertical");
+  }
+  72% {
+            filter: url("#none");
+  }
+}

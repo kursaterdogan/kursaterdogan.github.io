@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    {{ content }}
+    <canvas id='matrix'></canvas>
+    <svg class='hide' xmlns="http://www.w3.org/2000/svg">
+	  <defs>
+		    <filter id='blur-horizontal'>
+			      <feGaussianBlur stdDeviation='3,0' />
+    		</filter>
+    		<filter id='blur-vertical'>
+			      <feGaussianBlur stdDeviation='0,6' />
+		    </filter>
+	  </defs>
+    </svg>
+    {%- include footer.html -%}
+  </body>
+
+</html>

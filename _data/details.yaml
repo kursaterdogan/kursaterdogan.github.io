@@ -1,0 +1,31 @@
+# Your name
+name: Kürsat
+#Your GitHub profile picture
+avatar: soullreaver size=120
+# Your Contact Details
+contact:
+  - profile: Github
+    network: work
+    user-id: 
+    link: http://github.com/soullreaver
+    icon: <i class="fab fa-github-alt"></i>
+
+  - profile: Instagram
+    network: headmaster
+    user-id: 
+    link: https://www.instagram.com/soullreaver/
+    icon: <i class="fab fa-instagram"></i>
+
+  - profile: got questions?
+    network: keybase
+    user-id: send email
+    link: mailto:soullreaver.private@icloud.com
+    icon: <i class="fas fa-feather-alt"></i>
+
+  - profile: Kürsat Erdoğan
+    network: angellist
+    user-id: looking for opportunities
+    link: https://www.linkedin.com/in/kursat-erdogan/
+    icon: <i class="fab fa-linkedin"></i>
+    
+  

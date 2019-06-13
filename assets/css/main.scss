@@ -1,0 +1,17 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Bungee|Permanent+Marker&display=swap');
+// Colors
+@import 'color';
+// Helpers
+@import 'helpers';
+// Mixins
+@import 'mixins';
+// Base
+@import 'base';
+// Componets
+@import 'componets/background';
+@import 'componets/contact-box';
