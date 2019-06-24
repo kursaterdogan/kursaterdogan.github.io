@@ -16,14 +16,8 @@ contact:
     link: https://twitter.com/soullreaver
     icon: <i class="fab fa-twitter-square"></i>
 
-  - profile: Instagram
-    network: headmaster
-    user-id: 
-    link: https://www.instagram.com/soullreaver/
-    icon: <i class="fab fa-instagram"></i>
-
   - profile: got questions?
-    network: angellist
+    network: headmaster
     user-id: send email
     link: mailto:soullreaver.private@icloud.com
     icon: <i class="fas fa-feather-alt"></i>
