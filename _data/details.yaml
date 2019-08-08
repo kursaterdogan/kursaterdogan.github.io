@@ -9,15 +9,27 @@ contact:
     user-id: 
     link: http://github.com/soullreaver
     icon: <i class="fab fa-github-alt"></i>
+
+  - profile: Twitter	
+    network: keybase	
+    user-id: 	
+    link: https://twitter.com/soullreaver
+    icon: <i class="fab fa-twitter"></i>
   
   - profile: Instagram	
     network: headmaster	
     user-id: 	
     link: https://www.instagram.com/soullreaver/	
     icon: <i class="fab fa-instagram"></i>
-
+    
+  - profile: LinkedIn	
+    network: bitbucket	
+    user-id: 	
+    link: https://www.linkedin.com/in/kursat-erdogan/	
+    icon: <i class="fab fa-linkedin"></i>
+    
   - profile: got questions?
-    network: keybase
+    network: angellist
     user-id: send email
     link: mailto:soullreaver.private@icloud.com
     icon: <i class="fas fa-feather-alt"></i>
