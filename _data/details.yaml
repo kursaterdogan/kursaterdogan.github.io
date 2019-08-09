@@ -23,13 +23,13 @@ contact:
     icon: <i class="fab fa-instagram"></i>
     
   - profile: LinkedIn	
-    network: bitbucket	
+    network: keybase	
     user-id: 	
     link: https://www.linkedin.com/in/kursat-erdogan/	
     icon: <i class="fab fa-linkedin"></i>
     
   - profile: got questions?
-    network: keybase
+    network: angellist
     user-id: send email
     link: mailto:soullreaver.private@icloud.com
     icon: <i class="fas fa-feather-alt"></i>
