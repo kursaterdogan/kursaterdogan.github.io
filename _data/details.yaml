@@ -10,6 +10,12 @@ contact:
     link: http://github.com/soullreaver
     icon: <i class="fab fa-github-alt"></i>
 
+  - profile: Spotify	
+    network: medium	
+    user-id: 	
+    link: https://open.spotify.com/user/gjlqsrhtwj5mrk6manhqi4nmb?si=kLA4XK7AS-CO5P3WMhlMCw
+    icon: <i class="fab fa-spotify"></i>
+
   - profile: Twitter	
     network: keybase	
     user-id: 	
