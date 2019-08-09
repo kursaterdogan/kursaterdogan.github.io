@@ -15,12 +15,6 @@ contact:
     user-id: 	
     link: https://open.spotify.com/user/gjlqsrhtwj5mrk6manhqi4nmb?si=kLA4XK7AS-CO5P3WMhlMCw
     icon: <i class="fab fa-spotify"></i>
-
-  - profile: Twitter	
-    network: keybase	
-    user-id: 	
-    link: https://twitter.com/soullreaver
-    icon: <i class="fab fa-twitter"></i>
   
   - profile: Instagram	
     network: headmaster	
@@ -35,7 +29,7 @@ contact:
     icon: <i class="fab fa-linkedin"></i>
     
   - profile: got questions?
-    network: angellist
+    network: keybase
     user-id: send email
     link: mailto:soullreaver.private@icloud.com
     icon: <i class="fas fa-feather-alt"></i>
