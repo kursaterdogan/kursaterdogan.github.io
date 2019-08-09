@@ -22,14 +22,8 @@ contact:
     link: https://www.instagram.com/soullreaver/	
     icon: <i class="fab fa-instagram"></i>
     
-  - profile: LinkedIn	
-    network: keybase	
-    user-id: 	
-    link: https://www.linkedin.com/in/kursat-erdogan/	
-    icon: <i class="fab fa-linkedin"></i>
-    
   - profile: got questions?
-    network: angellist
+    network: keybase
     user-id: send email
     link: mailto:soullreaver.private@icloud.com
     icon: <i class="fas fa-feather-alt"></i>
