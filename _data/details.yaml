@@ -16,17 +16,17 @@ contact:
     link: https://www.instagram.com/soullreaver/	
     icon: <i class="fab fa-instagram"></i>
 
+  - profile: Twitter	
+    network: twitter	
+    user-id: 	
+    link: https://twitter.com/soullreaver	
+    icon: <i class="fab fa-twitter-square"></i>
+
   - profile: Spotify	
     network: medium	
     user-id: 	
     link: https://open.spotify.com/user/gjlqsrhtwj5mrk6manhqi4nmb?si=fbBkXEnoQr6BWVMY0aCyDA
     icon: <i class="fab fa-spotify"></i>
-
-  - profile: LinkedIn	
-    network: bitbucket	
-    user-id: 	
-    link: https://www.linkedin.com/in/kursat-erdogan/	
-    icon: <i class="fab fa-linkedin"></i>
 
   - profile: got questions?
     network: angellist
