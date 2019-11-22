@@ -16,6 +16,12 @@ contact:
     link: https://www.instagram.com/soullreaver/	
     icon: <i class="fab fa-instagram"></i>
 
+  - profile: Twitter		
+    network: twitter		
+    user-id: 		
+    link: https://twitter.com/soullreaver		
+    icon: <i class="fab fa-twitter-square"></i>
+
   - profile: Spotify	
     network: medium	
     user-id: 	
