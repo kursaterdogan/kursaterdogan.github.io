@@ -30,7 +30,7 @@ plugins:
   - jekyll-avatar
   - jekyll-seo-tag
   - jemoji
-google_analytics:
+google_analytics: UA-154884751-1
 
 sass:
   style: compact # possible values: nested expanded compact compressed
