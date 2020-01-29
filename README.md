@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.io/soullreaver/soullreaver.github.io.svg)](http://hits.dwyl.io/soullreaver/soullreaver.github.io)
+[![HitCount](http://hits.dwyl.io/kursaterdogan/kursaterdogangithubio.svg)](http://hits.dwyl.io/kursaterdogan/kursaterdogangithubio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/soullreaver/soullreaver.github.io/blob/master/LICENSE)
 # soullreaver.github.io
 
