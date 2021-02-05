@@ -4,12 +4,6 @@ name: Kürsat
 avatar: kursaterdogan size=120
 # Your Contact Details
 contact:
-  - profile: Github
-    network: work
-    user-id: 
-    link: http://github.com/kursaterdogan
-    icon: <i class="fab fa-github-alt"></i>
-
   - profile: Instagram	
     network: headmaster	
     user-id: 	
@@ -21,6 +15,24 @@ contact:
     user-id: 	
     link: https://open.spotify.com/user/gjlqsrhtwj5mrk6manhqi4nmb?si=fbBkXEnoQr6BWVMY0aCyDA
     icon: <i class="fab fa-spotify"></i>
+
+     - profile: Github
+    network: work
+    user-id: 
+    link: http://github.com/kursaterdogan
+    icon: <i class="fab fa-github-alt"></i>
+
+  - profile: Gitlab
+    network: gitlab
+    user-id: 
+    link: https://gitlab.com/kursaterdogan
+    icon: <i class="fab fa-gitlab"></i>
+
+  - profile: LinkedIn
+    network: linkedin
+    user-id:
+    link: https://www.linkedin.com/in/erdogankursat/
+    icon: <i class="fab fa-linkedin"></i>
 
   - profile: got questions?
     network: angellist
