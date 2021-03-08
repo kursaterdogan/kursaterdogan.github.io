@@ -4,18 +4,6 @@ name: Kürsat
 avatar: kursaterdogan size=120
 # Your Contact Details
 contact:
-  - profile: Instagram	
-    network: headmaster	
-    user-id: 	
-    link: https://www.instagram.com/kursaterdogann/	
-    icon: <i class="fab fa-instagram"></i>
-
-  - profile: Spotify	
-    network: medium	
-    user-id: 	
-    link: https://open.spotify.com/user/gjlqsrhtwj5mrk6manhqi4nmb?si=fbBkXEnoQr6BWVMY0aCyDA
-    icon: <i class="fab fa-spotify"></i>
-
   - profile: Github
     network: work
     user-id: 
