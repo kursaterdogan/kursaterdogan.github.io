@@ -22,12 +22,6 @@ contact:
     link: http://github.com/kursaterdogan
     icon: <i class="fab fa-github-alt"></i>
 
-  - profile: Gitlab
-    network: gitlab
-    user-id: 
-    link: https://gitlab.com/kursaterdogan
-    icon: <i class="fab fa-gitlab"></i>
-
   - profile: HackerRank
     network: medium
     user-id: 
