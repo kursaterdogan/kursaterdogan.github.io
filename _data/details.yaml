@@ -4,6 +4,18 @@ name: Kürsat
 avatar: kursaterdogan size=120
 # Your Contact Details
 contact:
+  - profile: Instagram	
+    network: headmaster	
+    user-id: 	
+    link: https://www.instagram.com/kursaterdogann/	
+    icon: <i class="fab fa-instagram"></i>
+
+  - profile: Spotify	
+    network: medium	
+    user-id: 	
+    link: https://open.spotify.com/user/gjlqsrhtwj5mrk6manhqi4nmb?si=fbBkXEnoQr6BWVMY0aCyDA
+    icon: <i class="fab fa-spotify"></i>
+    
   - profile: Github
     network: work
     user-id: 
@@ -15,6 +27,12 @@ contact:
     user-id: 
     link: https://gitlab.com/kursaterdogan
     icon: <i class="fab fa-gitlab"></i>
+
+  - profile: HackerRank
+    network: medium
+    user-id: 
+    link: https://www.hackerrank.com/kursaterdogan
+    icon: <i class="fab fa-hackerrank"></i>
 
   - profile: LinkedIn
     network: linkedin
