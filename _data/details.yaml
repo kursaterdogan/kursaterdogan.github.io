@@ -22,12 +22,6 @@ contact:
     link: http://github.com/kursaterdogan
     icon: <i class="fab fa-github-alt"></i>
 
-  - profile: HackerRank
-    network: medium
-    user-id: 
-    link: https://www.hackerrank.com/kursaterdogan
-    icon: <i class="fab fa-hackerrank"></i>
-
   - profile: LinkedIn
     network: linkedin
     user-id:
